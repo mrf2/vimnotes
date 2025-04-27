@@ -3,5 +3,5 @@
 ```bash
 <C-w> w
 ```
-    - Press **Ctrl + w**, then press w.
-    - This cycles through open windows.
+- Press **Ctrl + w**, then press `w`.
+- This cycles through open windows.
