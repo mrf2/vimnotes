@@ -18,4 +18,4 @@
 ```bash
    :.,+5y
 ```
-Now paste it by issing `p` from in **command** mode
+Now paste it by pressing `p` key in **command** mode
