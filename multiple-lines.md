@@ -16,10 +16,11 @@
 
 ### Deleting all lines from the current line (.) up the the defined line:
 ```bash
-   :,25d
+   :.,25d
 ```
  - `:` - Enters command-line mode.
  - `.` - Current line.
+ - `,` - Comma is used for define range, here current line (.) to line number 25
  - `25` - Absolute line number.
  - `d` - Delete.
 This will delete a **continous block of lines** starting from where our cursor is now, up to line 25.
