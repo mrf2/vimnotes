@@ -13,9 +13,9 @@
  - Number registers (`"0` to `"9`)
 
 ## Pasting the contents of a specified regrster
- - In insert mode press `Ctrl+r` and a double quote(`"`) will display
- - Now enter the regiser name, like, `3` which actually display like `"3`
- - Now the register will shown in buffere.
+ > 1. In insert mode press `Ctrl+r` and a double quote(`"`) will display
+ > 2. Now enter the regiser name, like, `3` which actually display like `"3`
+ > 3. Now the register will shown in buffere.
 
 ## Register Types in Vim
 |Symbol|Name|Description|
