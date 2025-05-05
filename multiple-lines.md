@@ -30,3 +30,16 @@ This will delete a **continous block of lines** starting from where our cursor i
    :.,+5y
 ```
 Now paste it by pressing `p` key in **command** mode
+
+
+### Comment out multiples lines
+```bash
+   :.,$normal I#
+```
+
+ - `:` - Enters command-line mode.
+ - `.` - Current line.
+ - `,` - Comma is used for define range, here current line (.) to end of file
+ - `$` - All lines from the current line
+ - `normal` - Normal mode
+ - `I#` - Insert # at the beginning of each line
