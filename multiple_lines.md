@@ -1,4 +1,4 @@
-# Working with multiples line - yanking (copying), deleteing, indenting etc.
+# Working with multiple lines - yanking (copying), deleteing, indenting etc.
 
 ## Yank 5 lines
 ```bash
@@ -32,7 +32,7 @@ This will delete a **continous block of lines** starting from where our cursor i
 Now paste it by pressing `p` key in **command** mode
 
 
-### Comment out multiples lines
+### Comment out multiple lines
 ```bash
    :.,$normal I#
 ```
@@ -43,3 +43,10 @@ Now paste it by pressing `p` key in **command** mode
  - `$` - All lines from the current line
  - `normal` - Normal mode
  - `I#` - Insert # at the beginning of each line
+
+### Adding something to multiple lines
+```vim
+:10,50normal! I<sometext>
+```
+ * `10,50` $\rightarrow$ Line range
+ * 
