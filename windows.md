@@ -37,4 +37,6 @@
 :terminal           # this will split the window to show terminal
 :close              # if the terminal open inside an existing split window,
                     # then close the other window
+:Ctrl-\, Ctrl-n     # Exit terminal input mode
+:i                  # Resume terminal input
 ```
