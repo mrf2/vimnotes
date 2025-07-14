@@ -40,3 +40,9 @@
 :Ctrl-\, Ctrl-n     # Exit terminal input mode
 :i                  # Resume terminal input
 ```
+
+### Open terminal in the `right` vertical split (not left)
+```
+:rightbelow vertical terminal
+```
+The `rightbelow` works with `:vsplit`, `:new`, `:edit`, etc. too.
