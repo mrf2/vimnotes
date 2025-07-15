@@ -11,4 +11,16 @@
 |Read all subdirectories absolute path Manually|`r !find ~/notes/knowledge-base/development/python/Flask/ -maxdepth 1`|Inserts all directores exists under `/my/full/path`| 
 
 
+## Advanced Use
+ * Insert the **entire struct** `addrinfo` **definition** from the man page
+```bash
+:r !man getaddrinfo | col -b | sed -n '/struct addrinfo {/,/};/p'
+```
+
+```bash
+:r !man getaddrinfo | col -b | awk '/struct addrinfo {/,/};/'
+```
+
+
+
 
