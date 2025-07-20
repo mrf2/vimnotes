@@ -8,7 +8,7 @@
 |Read output from a shell command|`:r !ls`|Inserts the output of `ls` command|
 |Read all subdirectories recursively|`:r !find . -type d`|
 |Read all subdirectories absolute path Manually|`:r !find /my/full/path -type d`|Inserts all directores exists under `/my/full/path`| 
-|Read all subdirectories absolute path Manually|`r !find ~/notes/knowledge-base/development/python/Flask/ -maxdepth 1`|Inserts all directores exists under `/my/full/path`| 
+|Read all subdirectories absolute path Manually|`r !find /knowledge-base/development/python/Flask/ -maxdepth 1`|Inserts all directores exists under `/my/full/path`| 
 
 
 ## Advanced Use
