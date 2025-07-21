@@ -21,6 +21,8 @@
 :r !man getaddrinfo | col -b | awk '/struct addrinfo {/,/};/'
 ```
 
-
-
+## Insert mode:
+```bash
+<C-r>=system('man socket | col -b| grep "int socket(.*);"')<CR>
+```
 
