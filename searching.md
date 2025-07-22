@@ -6,6 +6,12 @@
    :g/,/s///g
 ```
 
+### Searching and replace in address range
+```bash
+# :<start>, <end>s/pattern_input/pattern_output/g
+:11,13s/\/\*/\/\//g
+```
+
 ### Find all filenames matching xxxx-yyyy.jpg and replace them
 ```bash
    :%s/\(\k\+\-\k\+\.jpg\)/asset\/\1/g
