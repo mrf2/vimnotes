@@ -39,6 +39,7 @@
                     # then close the other window
 :Ctrl-\, Ctrl-n     # Exit terminal input mode
 :i                  # Resume terminal input
+:Ctrl-w,=           # Resize all windows to equal dimension
 ```
 
 ### Open terminal in the `right` vertical split (not left)
