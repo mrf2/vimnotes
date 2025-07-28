@@ -16,3 +16,8 @@
 `:r` root (one extension removed)
 
 `:e` extension only 
+
+## Display filename
+ * `:f` (`:file`) - Display filename
+ * `<Ctrl>`+`G` - Display filename
+
