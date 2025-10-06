@@ -50,3 +50,11 @@ Now paste it by pressing `p` key in **command** mode
 ```
  * `10,50` $\rightarrow$ Line range
  * 
+
+### Indentention in Visual Block Mode
+ * Manual Space Move
+   * `Ctrl+v` $\rightarrow$ select lines
+   * `I` (capital i) \$rightarrow$ enter insert mode at start of the block line
+   * Press `space`, for example 2 space in each line press `space` 2 times
+   * Press `Esc` 
+   * ***Vim will insert those spaces at the start of all selected lines.***  
