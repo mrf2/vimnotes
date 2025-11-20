@@ -73,3 +73,23 @@ y[count]l
 ```bash
    :.,+5y
 ```
+
+
+### Paste something multiple times using a ***count***
+If we already yanked something, for examples, *a single character with* **`yl`** or *multiple characters with* **`y5l` or `5yl`**, then, then  we can paste in **N times** using:
+```vim
+[count]p
+```
+#### Examples:
+|Command|Meaning|
+|---|---|
+|`p`|Paste once|
+|`5p`|Paste 5 times|
+|`20p`|Paste 20 times|
+
+So if we yanked a single char `a`, then:
+```vim
+20p
+```
+
+$\rightarrow$ pastes it 20 times after the cursor.  
